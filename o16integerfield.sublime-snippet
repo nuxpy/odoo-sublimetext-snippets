@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+INTEGER_FIELD = fields.Integer(string="FIELD NAME")
+]]></content>
+    <tabTrigger>o16integerfield</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

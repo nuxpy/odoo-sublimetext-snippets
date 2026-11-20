@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+HTML_FIELD = fields.Html(string="FIELD NAME")
+]]></content>
+    <tabTrigger>o16htmlfield</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<record id="TREE_VIEW_ID" model="ir.ui.view">
+    <field name="name">TREE.VIEW.ID</field>
+    <field name="model">MODEL.NAME</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name" placeholder=""/>
+            <field name="ANOTHER_FIELD" invisible="1"/>
+            <button name="BUTTON_NAME"
+                string="BUTTON NAME"
+                type="object"
+                icon="fa-refresh"
+                attrs="{'invisible': [('FIELD', '=', VALUE)]}"/>
+        </tree>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>o16treeview</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

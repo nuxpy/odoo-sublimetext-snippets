@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+CHOICES = [
+    ('-', '-'),
+    ('A', 'A'),
+    (1, 'First Option'),
+    (2, 'Second Option'),
+]
+
+SELECTOR_FIELD = fields.Selection(
+    selection=CHOICES,
+    string='FIELD NAME',
+    default='-')
+]]></content>
+    <tabTrigger>o16selectorfield</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
