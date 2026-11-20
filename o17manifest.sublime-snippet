@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+{
+    'name': "ADDON NAME",
+    'summary': "ADDON SUMMARY",
+    'description': """
+    """,
+    'version': '0.0.1',
+    'category': 'CATEGORY',
+    'author': "nuxpy",
+    'website': "https://nuxpy.com",
+    'contributors': [
+        'F. Urbina <furbina@nuxpy.com>'
+    ],
+    'support': 'help@nuxpy.com',
+    'depends': [
+        'base'
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        # 'views/git_repository_views.xml',
+    ],
+    'images': [
+        'static/description/IMG.png',
+    ],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+    'license': 'LGPL-3',
+}
+]]></content>
+    <tabTrigger>o17manifest</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

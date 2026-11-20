@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+FIELD_TEXT = fields.Text()
+]]></content>
+    <tabTrigger>o17textfield</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

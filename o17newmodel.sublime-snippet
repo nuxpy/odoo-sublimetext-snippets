@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+
+class MethodName(models.Model):
+    _name = 'METHOD.NAME'
+    _description = 'METHOD DESCRIPTION'
+    _order = 'name, id'
+
+    name = fields.Char()
+
+]]></content>
+    <tabTrigger>o17newmodel</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

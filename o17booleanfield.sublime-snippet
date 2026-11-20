@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+BOOLEAN_FIELD = fields.Boolean(
+    default=False,
+    string='FIELD NAME',
+    help='')
+]]></content>
+    <tabTrigger>o17booleanfield</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

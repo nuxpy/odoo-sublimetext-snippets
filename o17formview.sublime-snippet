@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<record id="FORM_VIEW_ID" model="ir.ui.view">
+    <field name="name">FORM.VIEW.NAME</field>
+    <field name="model">MODEL.NAME</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="name" placeholder="" required="1"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>o17formview</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

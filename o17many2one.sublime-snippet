@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+FIELD_id = fields.Many2one('MODEL.NAME',
+    string="FIELD NAME",
+    domain=[('FIELD', '=', VALUE)])
+]]></content>
+    <tabTrigger>o17many2one</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

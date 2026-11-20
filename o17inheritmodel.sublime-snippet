@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+
+class MethodName(models.Model):
+    _inherit = 'METHOD.NAME'
+
+]]></content>
+    <tabTrigger>o17inheritmodel</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
