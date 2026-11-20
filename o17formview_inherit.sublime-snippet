@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<record id="FORM_VIEW_ID" model="ir.ui.view">
+    <field name="name">FORM.VIEW.NAME</field>
+    <field name="model">MODEL.NAME</field>
+    <field name="inherit_id" ref="MODULE.PARENT_FORM_VIEW_ID"/>
+    <field name="priority">400</field>
+    <field name="arch" type="xml">
+        <xpath expr="//form/sheet//notebook" position="VALUE">
+            CONTENT
+        </xpath>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>o17formview_inherit</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>
