@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<record id="SEARCH_VIEW_ID" model="ir.ui.view">
+    <field name="name">SEARCH.VIEW.NAME</field>
+    <field name="model">MODEL.NAME</field>
+    <field name="inherit_id" ref="MODULE.PARENT_SEARCH_VIEW_ID"/>
+    <field name="priority" eval="400"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='FIELD_NAME']" position="before">
+            <field name="FIELD_NAME" string="FIELD NAME" filter_domain="[('FIELD', 'ilike', self)]"/>
+        </xpath>
+        <xpath expr="//filter[@name='FIELD_NAME']" position="after">
+            <separator />
+            <filter name="FIELD_NAME" string="FIELD NAME" domain="[('FIELD', '=', VALUE)]"/>
+            <separator />
+            <filter name="DATE_FIELD_group" string="Release Date"
+                domain="[('DATE_FIELD', '&gt;', (context_today() - datetime.timedelta(days=1)).strftime('%Y-%m-%d'))]"
+                context="{'group_by': 'DATE_FIELD:year'}"/>
+        </xpath>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>o18searchview_inherit</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<record id="LIST_VIEW_ID" model="ir.ui.view">
+    <field name="name">LIST.VIEW.NAME</field>
+    <field name="model">MODEL.NAME</field>
+    <field name="arch" type="xml">
+        <list>
+            <field name="name"/>
+            <field name="value" optional="show"/>
+            <field name="value2" column_invisible="1"/>
+        </list>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>o18listview</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>
