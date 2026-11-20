@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<record id="WINDOW_ACTION_ID" model="ir.actions.act_window">
+    <field name="name">WINDOW ACTION NAME</field>
+    <field name="res_model">MODEL.NAME</field>
+    <field name="view_mode">list,form</field>
+</record>
+]]></content>
+    <tabTrigger>o18windowaction</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>
