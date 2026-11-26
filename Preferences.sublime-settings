@@ -1,0 +1,27 @@
+{
+    "font_size": 11,
+    "default_font_size": 11,
+    "font_face": "DM Mono Medium",
+    "highlight_line": true,
+    "draw_white_space": ["all"],
+    "class": "sidebar_label",
+    "translate_tabs_to_spaces": true,
+    "ignored_packages": [
+        "Vintage",
+    ],
+    "index_files": true,
+    "theme": "auto",
+    "spell_check": true,
+    "dictionary": "Packages/Language - Spanish/es_ES.dic",
+    // "dictionary": [
+    //     "Packages/Language - English/en_US.dic",
+    //     "Packages/Language - Spanish/es_VE.dic",
+    // ],
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "dark_color_scheme": "Celeste.sublime-color-scheme",
+    "light_color_scheme": "Celeste.sublime-color-scheme",
+    "dark_theme": "Default Dark.sublime-theme",
+    "light_theme": "Default.sublime-theme",
+    "sidebar_on_right": true,
+    // "fold_style": "force_indentation",
+}
